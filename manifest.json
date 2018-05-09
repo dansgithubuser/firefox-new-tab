@@ -3,7 +3,7 @@
 	"name": "New-Tab",
 	"version": "1.0",
 	"content_scripts": [{
-		"matches": ["*"],
+		"matches": ["*://*"],
 		"js": ["main.js"]
 	}]
 }
