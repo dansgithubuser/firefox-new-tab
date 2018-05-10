@@ -5,6 +5,12 @@
 	"background": {
 		"scripts": ["main.js"]
 	},
+	"commands": {
+		"new-tab-extension-command": {
+			"suggested_key": {"default": "Alt+Shift+A"},
+			"description": "new tab"
+		}
+	},
 	"permissions": [
 		"tabs"
 	]
