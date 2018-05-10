@@ -2,8 +2,10 @@
 	"manifest_version": 2,
 	"name": "New-Tab",
 	"version": "1.0",
-	"content_scripts": [{
-		"matches": ["*://*"],
-		"js": ["main.js"]
-	}]
+	"background": {
+		"scripts": ["main.js"]
+	},
+	"permissions": [
+		"tabs"
+	]
 }

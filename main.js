@@ -1,1 +1,5 @@
-document.body.style.border = "5px solid red";
+function handleCreated(tab){
+  console.log('hello '+tab.id);
+}
+
+browser.tabs.onCreated.addListener(handleCreated);
