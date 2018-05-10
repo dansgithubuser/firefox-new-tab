@@ -3,15 +3,4 @@
 	<input type='text' id='url'/>
 	<button type='submit'>save</button>
 </form>
-
-<script>
-
-document.querySelector('form').addEventListener('submit', (event)=>{
-	browser.storage.local.set({url: document.getElementById('url').value});
-});
-
-browser.storage.local.get().then((results)=>{
-	document.getElementById('url').value=results.url;
-});
-
-</script>
+<script src='option.js'></script>
