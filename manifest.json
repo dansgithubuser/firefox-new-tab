@@ -17,5 +17,10 @@
 	"permissions": [
 		"tabs",
 		"storage"
-	]
+	],
+	"applications": {
+		"gecko": {
+			"id": "newtab@dansdomain.com"
+		}
+	}
 }
