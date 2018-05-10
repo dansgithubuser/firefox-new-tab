@@ -1,5 +1,5 @@
 function handleCreated(tab){
-  console.log('hello '+tab.id);
+	browser.tabs.update(tab.id, {url: 'https://dansgithubuser.github.io/dansBookmarks'});
 }
 
 browser.tabs.onCreated.addListener(handleCreated);
