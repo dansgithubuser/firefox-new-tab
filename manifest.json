@@ -11,7 +11,11 @@
 			"description": "new tab"
 		}
 	},
+	"options_ui": {
+		"page": "options.html"
+	},
 	"permissions": [
-		"tabs"
+		"tabs",
+		"storage"
 	]
 }
